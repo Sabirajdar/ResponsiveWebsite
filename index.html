@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Template</title>
+</head>
+<style>
+    * {
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+		html {
+			font-size: 10px;
+		}
+		body {
+			min-height: 100vh;
+			width: 100%;
+			overflow: hidden auto;
+		}
+		.wrapper {
+			height: 100%;
+			width: 100%;
+		}
+.navbar{
+    height: 8rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.logo{
+    height: 8rem;
+    width: 25rem;
+}
+.logo img{
+    height: 8rem;
+    width: 15rem;
+}
+.links{
+    height: 8rem;
+    width: 40rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    font-size: 2rem;
+}
+.menu{
+    display: none;
+}
+.menu img{
+    height: 4rem;
+    width: 4rem;
+}
+.butto{
+    height: 8rem;
+    width: 25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.butto button{
+    height: 4rem;
+    width: 10rem;
+    border-radius: 2rem;
+    background-color: black;
+    color: white;
+}
+.section{
+    min-height: 60rem;
+    width: 100%;
+    background-image: url(./baaack.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 2rem;
+    color: rgb(19, 19, 19);
+    justify-content: center;
+    align-items: start;
+}
+.section h1{
+    font-size: 4rem;
+}
+.section p{
+    font-size: 2rem;
+}
+.section1{
+    min-height: 30rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: start;
+    padding: 3rem;
+}
+.one{
+    height: 30rem;
+    width:50rem;
+    line-height: 1 px;
+    justify-items:center;
+}
+.one h2{
+    font-size: 4rem;
+}
+.one p{
+    font-size: 3rem;
+}
+#border{
+    border-left: 2px solid black;
+    line-height: 1 px;
+    justify-items: center;
+    padding-left: 5rem;
+}
+.section2{
+    min-height: 20rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.cont1{
+    height: 10rem;
+    width:50rem;
+    font-size: 3rem;
+    justify-items: center;
+}
+.cont2{
+    min-height: 12rem;
+    width:70rem;
+    font-size: 3rem;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+.box{
+    height:8rem;
+    width: 15rem;
+    
+    justify-content: center;
+    align-items: center;
+}
+.box img{
+    height:7rem;
+    width: 15rem;
+    flex-direction: column;
+}
+.section3{
+    height:18rem;
+    width: 100%;
+    padding: 4rem;
+}
+.section3 h1{
+    font-size: 3rem;
+}
+.section4{
+    min-height: 30rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.two1{
+    height: 30rem;
+    width: 40rem;
+}
+.two2{
+    padding: 1rem;
+    min-height: 30rem;
+    width: 40rem;
+}
+.two1 img{
+    height: 30rem;
+    width: 40rem;
+}
+.two2 p{
+    font-size: 2rem;
+    line-height: 4rem;
+}
+.section5{
+    min-height: 9rem;
+    width: 100%;
+    padding: 4rem;
+}
+.section5 h2{
+    font-size: 3rem;
+}
+.section5 p{
+    font-size: 2rem;
+}
+.section6{
+    min-height: 50rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.man{
+    height: 40rem;
+    width: 30rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.man img{
+    height: 20rem;
+    width: 20rem;
+}
+.man p{
+    font-size: 1.5rem;
+}
+.icon{
+    height:3.5rem;
+    width: 3.5rem;
+    display: flex;
+    gap: 0.8rem;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.icon img{
+    height:3rem;
+    width: 3rem;
+}
+.section7{
+    min-height: 40rem;
+    width: 100%;
+}
+table{
+    font-size: 2rem;
+    height: 40rem;
+    width: 50rem;
+}
+th,td,tr{
+    height: 3rem;
+    width: 1rem;
+}
+table {
+            width:100%;
+            justify-content: center;
+            align-items: center;
+            border-collapse: collapse;
+        }
+        th, td {
+            text-align: left;
+            padding: 1rem;
+        }
+        th {
+            font-size: 2rem;
+        }
+        td, th {
+            border-bottom: 1px solid #000;
+        }
+.section8{
+    height: 20rem;
+    width: 100%;
+    background-color: rgb(152, 151, 151);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: start;
+    justify-items: start;
+    gap: 1rem;
+}
+.section8 h1{
+    font-size: 3rem
+
+}
+.section8 p{
+    font-size: 2rem
+}
+.section8 button{
+    height: 3rem;
+    width: 13rem;
+    background-color: #000;
+    color: white;
+    border-radius: 1.5rem;
+}
+.section9{
+    min-height: 20rem;
+    width: 100%;
+    background-color: rgb(5, 5, 5);
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+.section9 img{
+    height: 10rem;
+    width: 10rem;
+}
+.last{
+    min-height:20rem;
+    width: 100%;
+    background-color: rgb(5, 5, 5);
+    color: white;
+    display: flex;
+    gap: 2rem;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+.sub h5{
+    font-size: 2.5rem;
+}
+.sub p{
+    font-size: 2rem;
+}
+@media screen and (max-width:900px) {
+			html {
+				font-size: 9px;
+			}
+            .section{
+                flex-direction: column;
+            }
+            .section6{
+                flex-direction: column;
+            }
+}
+@media screen and (max-width:500px) {
+			html {
+				font-size: 9px;
+			}
+            .links {
+			display: none;
+			}
+			.menu {
+			display: block;
+			}
+        .butto{
+            width: 100%;
+        }
+        .section{
+                flex-direction: column;
+                font-size: 12px;
+                text-align: center;
+                align-items: center;
+                height: 100px;
+                position: relative;
+                top: 60px;
+            }
+        .section2{
+                gap:0;
+            }
+        .cont1{
+                text-align: center;
+                padding: 1rem;
+            }
+        .cont2{
+            justify-content: center;
+            flex-wrap: wrap;
+            width: 50%;
+        }
+        .section3{
+            padding: auto;
+        }
+        .section3 h1{
+            text-align: center;
+            padding: 1rem;
+        }
+        .section5{
+            text-align: center;
+        }
+        .section6{
+            flex-direction: column;
+        }
+       
+        tr,td,th{
+            width:60rem;
+            font-size: 2rem;
+        }
+        th, td {
+            text-align: right;
+            padding: 10px;
+            width: 50rem;
+        }
+        .last,.section8{
+            flex-direction: column;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+        }
+}
+</style>
+<body>
+    <div class="wrapper">
+        <div class="wrap">
+    <div class="navbar">
+        <div class="logo">
+            <img src="./M.png">
+        </div>
+        <div class="links">
+            <div class="a">Home</div>
+            <div class="a">About</div>
+            <div class="a">Contact</div>
+        </div>
+        <div class="menu">
+            <img src="./OIP.jpeg"
+                alt="">
+        </div>
+        <div class="butto">
+            <button>CONTACT</button>
+        </div>
+    
+    
+    
+    </div>
+
+    <div class="section">
+            <h1>ABOUTS US</h1>
+            <p>From technology integration to team training,every<br>
+            aspect was handled seamlessly.Our efficency and<br>morale have never been higher.</p>
+    </div>
+
+    <div class="section1">
+        <div class="one">
+            <p>HOW WE WORK</p>
+            <h2>YOUR PATH TO <br>
+            BUSINESS<br>EXCELLENCE</h2>
+        </div>
+        <div class="one" id="border">
+            <p>Our expert team provide training and tools to faster a</p>
+            <p>culture of transprancy and efficiency.helping your</p>
+                <p>bussiness achieves its goals and enhance employee engagement</p>
+        </div>
+    </div>
+
+    <div class="section2">
+        <div class="cont1">
+            <p>Solution to 56,000+<br>
+            happy Companies</p>
+        </div>
+        <div class="cont2">
+            <div class="box">
+                <img src="./1st.png">
+            </div>
+            <div class="box">
+                <img src="./2nd.png">
+            </div>
+            <div class="box">
+                <img src="./3rd.png">
+            </div>
+            <div class="box">
+                <img src="./4th.png">
+            </div>
+        </div>
+    </div>
+    <div class="section3">
+        <h1>UNLOCK YOUR </h1>
+        <h1> BUSINESS POTENTIAL</h1>
+    </div>
+    <div class="section4">
+        <div class="two1">
+            <img src="./girl.png">
+        </div>
+        <div class="two2">
+           <p><b>Your Path to Business Excellence</b></p>
+           <p>Sample text. Click to select the Text Element.</p>
+            <br>
+            <p><b>Empowering Business Growth</b></p>
+                <p> Sample text. Click to select the Text Element.</p>
+            <br>
+            <p><b>Solutions for a Brighter Future</b></p>
+                <p> Sample text. Click to select the Text Element.</p>
+        </div>
+    </div>
+    <div class="section5">
+        <h2>OUR TEAM</h2>
+        <p>Ut enim ad minim veniam, quis nostrud exercitation<br>
+            ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
+    <div class="section6">
+        <div class="man">
+            <img src="./Bob.jpg">
+            <p style="font-size: 2rem;padding: 0.5rem;">Bob Brown</p>
+            <p style="font-weight: 100;">Creative leader</p><br>
+            <p>Glavi amet ritnisl libero molestie ante ut</p>
+            <p>fringilla purus eros quis glavrid from dolor</p>
+            <p>amet iquam lorem bibendum</p>
+            <div class="icon">
+                <img src="./fackbook.png">
+                <img src="./Insta.png">
+                <img src="./fackbook.png">
+            </div>
+        </div>
+        <div class="man">
+            <img src="./Mary.jpg">
+            <p style="font-size: 2rem;padding: 0.5rem;">Mary Smith</p>
+            <p style="font-weight: 100;">chief accountant</p><br>
+            <p>Glavi amet ritnisl libero molestie ante ut</p>
+            <p>fringilla purus eros quis glavrid from dolor</p>
+            <p>amet iquam lorem bibendum</p><br>
+            <div class="icon">
+                <img src="./fackbook.png">
+                <img src="./Insta.png">
+                <img src="./fackbook.png">
+            </div>
+        </div>
+        <div class="man">
+            <img src="./Nick.jpg">
+            <p style="font-size: 2rem;padding: 0.5rem;">Nick Dark</p>
+            <p style="font-weight: 100;">sales manager</p><br>
+            <p>Glavi amet ritnisl libero molestie ante ut</p>
+            <p>fringilla purus eros quis glavrid from dolor</p>
+            <p>amet iquam lorem bibendum</p>
+            <div class="icon">
+                <img src="./fackbook.png">
+                <img src="./Insta.png">
+                <img src="./fackbook.png">
+            </div>
+        </div>
+    </div>
+    <div class="section7">
+        <form>
+            <table>
+                <h1 style="font-size: 3rem;">Leading with Innovation</h1>
+                <tr>
+                    <td>Features </td>
+                    <td> Neptune</td>
+                    <td> Company Cards</td>
+                    <td> Report software</td>
+                </tr>
+                <tr>
+                    <td>Fractional Shares</td>
+                    <td>+</td>
+                    <td>-</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td>Personalized Insights	</td>
+                    <td>+</td>
+                    <td>-</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td>Fee Transparency</td>
+                    <td>+</td>
+                    <td>-</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td>Effortless Automation	</td>
+                    <td>+</td>
+                    <td>-</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td>Award-Winning	</td>
+                    <td>+</td>
+                    <td>-</td>
+                    <td>-</td>
+                </tr>
+            </table>
+        </form>
+    </div>
+    <div class="section8">
+        <h1>Unlock Your Business Potential</h1>
+        <p>We saw a significant improvement in our bottom line within months. Highly recommend their services!</p>
+        <button>CONTACT</button>
+    </div>
+    <div class="section9">
+        <img src="./whiteM.png">
+        <div class="last">
+            <div class="sub">
+                <h5>ADDRESS</h5>
+                <p>123 Business Street, Suite 456, City,<br> State, ZIP Code</p>
+            </div>
+            <div class="sub">
+                <h5>CONTACT</h5>
+                <p>Phone: (123) 456-7890<br>
+                    Email: contact@yourcompany.com</p>
+            </div>
+            <div class="sub">
+                <h5>Financial Wellness Center, resources for Support and Guidance</h5>
+                <p>Image from <span><a><i>freepick</i></a></span></p>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</body>
+</html>
